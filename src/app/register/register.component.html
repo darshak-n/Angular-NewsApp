@@ -1,0 +1,32 @@
+<p>
+  register works!
+</p>
+
+<form >
+  <label for="uname">UserName</label>
+  <input type="text" name="uname" [(ngModel)]="uname" /><br/>
+
+  <label for="email">email</label>
+  <input type="email" name="email" [(ngModel)]="email"/><br/>
+
+  <label for="password">password</label>
+  <input type="password" name="password" [(ngModel)]="password"/><br/>
+   
+  <label for="confirmpassword">confirm Password</label>
+  <input type="password" name="confirmpassword" [(ngModel)]="confirmpassword" /><br/>
+
+  <label for="phno">Phone Number</label>
+  <input type="tel" name="phno" [(ngModel)]="phno" /><br/>
+
+   <label for="Gender">Gender</label><br/>
+  <mat-radio-group name="gender" [(ngModel)]=gender>
+    <mat-radio-button name="male" value="male">male</mat-radio-button>
+    <mat-radio-button name="female" value="female">female</mat-radio-button>
+    <mat-radio-button name="other" value="others">other</mat-radio-button>
+  </mat-radio-group>
+  <button type="button" (click)="makeobj(uname,email,password,confirmpassword,gender,phno)">Register</button>
+  <button type="reset">Cancel</button>
+<br/>
+<a routerLink="/login">already a user,login here</a>
+</form>
+<router-outlet></router-outlet>

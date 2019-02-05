@@ -1,0 +1,36 @@
+{
+ "categories":
+ [
+  { 
+    "tshirts":
+       [
+        "v-neck",
+        "round",
+        "polo"
+       ],
+     "brands":
+        [
+          "allen solly",
+          "levis",
+          "wrogn",
+          "hilfiger"
+        ]
+   },
+   {
+     "tshirts":
+      [
+        "causals",
+        "formal",
+        "party"
+      ],
+      "brands":
+        [
+          "peter england",
+          "raymonds",
+          "netplay",
+          "arrow"
+        ]
+    }
+ ]
+}
+          
